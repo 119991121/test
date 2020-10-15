@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+#frame1{background-color:white;
+width:430px;
+height:690px;
+margin:auto;
+border-radius:5px;
+}
+#frame2{width:300px;
+height=100px;
+padding-top:30px;
+padding-left:83px;
+}
+#frame3{margin:13px;}
+#frame4{
+background-color:#fcf8e3;
+width:400px;
+height:140px;
+border-radius:5px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:10px;
+margin-top:10px;
+}
+#frame5{width:385px;
+height:115;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:auto;
+margin-top:auto;
+}
+#frame6{width:390px;
+height:60px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:auto;
+margin-top:auto;
+}
+#frame7{
+margin-top:24xp;
+}
+#frame8{width:450px;
+height:120px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:auto;
+margin-top:auto;
+}
+#button1{background-color:#5cb85c;}
+.button2{background-color:#428bca;
+width:400px;
+height:50px;
+border-style:none;
+border-radius:5px;
+}
+#button3{background-color:#428bca;
+color:white;
+border-radius:5px;
+width:60px;
+height:35px;
+border-style:none;
+}
+#button_x{
+	width:16px;
+	height:16px;
+	background-color:#fcf8e3;
+	border-style:none;
+    border-radius:5px;}
+#button_ios{border-style:none;
+border-radius:5px;
+width:170px;
+height:35px;
+background-color:#d9534f;
+margin-top:10px;
+}
+#button_android{border-style:none;
+border-radius:5px;
+width:170px;
+height:35px;
+background-color:#5cb85c;
+margin-top:10px;		
+}
+.button_words{color:white;
+font-size:18px;
+border-radius:5px;
+}
+.small_words{font-size:14px;
+color:#8a6d3b;
+}
+.small_words2{font-size:14px;
+color:#428bca;
+}
+.define_border{border-style:none;
+border-radius:5px;
+}
+#fileOperation{border-radius:5px;
+	}
+.small_words2:link,.small_words2:visited{
+	text-decoration:none;
+}
+.small_words2:hover{
+	text-decoration:underline;
+	color:#2a6496;
+}
+.link3:link{
+	text-decoration:none;
+}
+.link3:hover{
+	text-decoration:underline;
+}
+#input1{
+	background-image:url(../image/user.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	border-radius:5px;
+	border-width:1px;
+	border-color:gray;}
+#input2{
+	background-image:url(../image/password.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	border-radius:5px;
+	border-width:1px;
+	border-color:gray;}
+#input3{
+	border-radius:5px;
+	border-width:1px;
+	border-color:gray;}
+ .black_overlay{ 
+            display: none; 
+			width:600px;
+			height:246px;
+			margin-top:30px;
+			margin-left:auto;
+			margin-right:auto;
+			position: absolute; 
+			 z-index:1001; 
+			  -moz-opacity: 0.8; 
+            opacity:.80; 
+
+        } 
+.white_content { 
+            display: none;  
+			border-color:black;
+			background-color:white; 
+			width:600px;
+			height:246px;
+			margin-top:30px;
+			margin-left:380px;
+			position: absolute; 
+			z-index:1002; 
+			filter: alpha(opacity=100);
+        } 
