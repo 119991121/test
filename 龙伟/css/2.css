@@ -12,13 +12,20 @@ padding-left:83px;
 margin:auto;
 }
 #frame3{margin:13px;}
-.button_word{background-color:#428bca;
+.button_word{
 width:400px;
 height:50px;
 border-style:none;
 border-radius:5px;
-}/* CSS Document */
+}
 #button1{background-color:#f0ad4e;}
+#button1:hover{
+	background: #ec971f;
+	}
+#button2{background-color:#428bca;}
+#button2:hover{
+	background:#3071a9;
+	}
 .define_border{border-style:none;
 border-radius:5px;
 width:110px;
