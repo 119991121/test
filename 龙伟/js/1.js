@@ -38,3 +38,18 @@ var del=function(){//点击按钮消除frame4
 	var a=d.lastChild;
 	d.remove(a);
 	}
+	
+  var user = document.getElementById('user'),//账号记忆功能（未测试是否实现）
+      localUser = localStorage.getItem('user') || ''; 
+      user.value = localUser;
+      if (localUser !== '') {
+        check.setAttribute('checked', '');
+      }
+
+    function fn() {
+      if (check.checked) {
+        localStorage.setItem('user', user.value);
+      } else {
+        localStorage.setItem('user', '');
+      }
+    }
