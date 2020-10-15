@@ -14,10 +14,18 @@ func main() {
 	now_day := int(time.Now().Day())
 	array1 := [13]int{0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
 	array2 := [13]int{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
-	fmt.Println("What year were you born [YYYY]?")
-	fmt.Println("What month were you born [MM]?")
-	fmt.Println("What day were you born [DD]?")
-	fmt.Scanln(&year, &month, &day)
+Start:
+
+	fmt.Println("What year were you born?")
+	fmt.Scanf("%4d\n", &year)
+	fmt.Println("What month were you born?")
+	fmt.Scanf("%2d\n", &month)
+	fmt.Println("What day were you born?")
+	fmt.Scanf("%2d\n", &day)
+	if (year > now_year) || (year == now_year && month > now_month) || year == now_year && month == now_month && day > now_day {
+		println("抱歉，暂不为未来人服务，请重新输入！")
+		goto Start
+	}
 	fmt.Printf("It looks like you were born on %d/%d/%d", day, month, year)
 
 	if (now_year%4 == 0 && now_year%100 != 0) || now_year%400 == 0 {
